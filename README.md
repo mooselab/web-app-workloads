@@ -1,16 +1,16 @@
-# Characterizing Workload Patterns
+# Characterizing Web Application Workload Patterns
 
-This repository hosts the replication package for the paper "Characterizing the Workload Patterns of Web Applications."
+This repository hosts the replication package for the paper "Understanding Web Application Workloads and Their Applications: Systematic Literature Review and Characterization."
 
 ## Introduction
 
 The repository is organized into three main folders:
 
-1. **Experiments:** This folder encompasses the code for conducting the experiments. It is further divided into three subfolders: `extracting_traces`, `clustering`, and `analysis`. The first subfolder is utilized for extracting traces (available in the [extracted_traces](./extracted_traces/) folder). The second subfolder handles the clustering of traces, and the results can be found in the [results](./results/) folder. The third subfolder contains code for the analysis of traces to address our research questions.
+1. **Experiments:** This folder encompasses the code for conducting the experiments. It is further divided into three subfolders: `extracting_traces`, `clustering`, and `analysis`. The first subfolder is utilized for extracting workloads (available in the [extracted_traces](./extracted_traces/) folder). The second subfolder handles the clustering of workloads, and the results can be found in the [results](./results/) folder. The third subfolder contains code for the analysis of workloads to address our research questions.
 
-2. **Extracted Traces:** This folder stores the raw data of the 10 traces studied in our research.
+2. **Extracted Traces:** This folder stores the raw data of the 12 workloads studied in our research.
 
-3. **Results:** This folder houses the clustered results of the traces, which are instrumental in answering our research questions.
+3. **Results:** This folder houses the clustered results of the workloads, which are instrumental in answering our research questions.
 
 ## Install
 
@@ -27,7 +27,8 @@ The `experiments` folder contains code for our primary experiments. Specific scr
 
 - `clustering_kmeans_silhouette_day.py`: Performs clustering on trace data at the daily granularity.
 - `clustering_kmeans_silhouette_week.py`: Performs clustering on trace data at the weekly granularity.
-- `clusters_analysis.py`: Conducts analysis on clusters and cluster centroids after the clustering process.
+- `clustering_analysis.py`: Conducts analysis on clusters after the clustering process.
 - `correlation_analysis.py`: Carries out correlation analysis between daily and weekly clusters.
-- `creating_plots.py`: Generates figures used in the article.
-- `extracting_traces` folder: Contains code for extracting the 10 traces used in our study.
+- `creating_plots_clustering.py`: Generates figures used in the first research question.
+- `creating_plots_slr.py`: Generates figures used in the second research question.
+- `extracting_traces` folder: Contains code for extracting the 12 workloads used in our study.
