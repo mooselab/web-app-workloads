@@ -39,5 +39,5 @@ def clustering_analysis(file_path):
     print(cluster_file_distribution)
 
 # Choose the daily or weekly file
-clustering_analysis('/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_day.csv')
-clustering_analysis('/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_week.csv')
+clustering_analysis('/results/clustered_kmeans_day.csv')
+clustering_analysis('/results/clustered_kmeans_week.csv')

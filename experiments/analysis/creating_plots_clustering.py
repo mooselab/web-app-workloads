@@ -12,8 +12,8 @@ plt_settings = {
 }
 
 # Specify the folder path
-wikipedia = '/Users/roozbeh/Documents/benchmark_code/files/output_resample_1h/wikipedia'
-wc98 = '/Users/roozbeh/Documents/benchmark_code/files/output_resample_1h/wc98'
+wikipedia = '/data/wikipedia'
+wc98 = '/data/wc98'
 
 def concat_df(path):
     # Initialize an empty list to store DataFrames
@@ -124,13 +124,13 @@ def show_hourly(data, path):
     # Display the first plot
     plt.show()
 
-show_daily(selected_day_wikipedia, '/Users/roozbeh/Documents/Dars/PhD/Papers/my_papers/Papers/paper3_Workload_patterns/wikipedia_day.pdf')
-show_daily(selected_day_wc98, '/Users/roozbeh/Documents/Dars/PhD/Papers/my_papers/Papers/paper3_Workload_patterns/wc98_day.pdf')
-show_hourly(selected_hour_wc98, '/Users/roozbeh/Documents/Dars/PhD/Papers/my_papers/Papers/paper3_Workload_patterns/wc98_hour.pdf')
-show_hourly(selected_hour_wikipedia, '/Users/roozbeh/Documents/Dars/PhD/Papers/my_papers/Papers/paper3_Workload_patterns/wikipedia_hour.pdf')
+show_daily(selected_day_wikipedia, '/result/wikipedia_day.pdf')
+show_daily(selected_day_wc98, '/result/wc98_day.pdf')
+show_hourly(selected_hour_wc98, '/result/wc98_hour.pdf')
+show_hourly(selected_hour_wikipedia, '/result/wikipedia_hour.pdf')
 
 # Read the data from the CSV file
-df = pd.read_csv('/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_day.csv')
+df = pd.read_csv('/results/clustered_kmeans_day.csv')
 
 # Extract the day of the week
 df['Date'] = pd.to_datetime(df['Date'])
@@ -166,12 +166,12 @@ with plt.rc_context(rc=plt_settings):
     plt.yticks([0, 20, 40, 60, 80, 100], ['0', '20', '40', '60', '80', '100'])
 
     plt.tight_layout()
-    file_name = f'/Users/roozbeh/Documents/benchmark_code/clustered_results/daily_week.pdf'
+    file_name = f'/results/daily_week.pdf'
     plt.savefig(file_name, format='pdf', bbox_inches='tight')
     plt.show()
 
     # Read the data from the new CSV file
-df_week = pd.read_csv('/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_week.csv')
+df_week = pd.read_csv('results/clustered_kmeans_week.csv')
 
 # Extract the month of the year
 df_week['Date'] = pd.to_datetime(df_week['Date'])
@@ -222,6 +222,6 @@ with plt.rc_context(rc=plt_settings):
     plt.yticks([0, 20, 40, 60, 80, 100], ['0', '20', '40', '60', '80', '100'])
 
     plt.tight_layout()
-    file_name = f'/Users/roozbeh/Documents/benchmark_code/clustered_results/weekly_quarter.pdf'
+    file_name = f'/result/weekly_quarter.pdf'
     plt.savefig(file_name, format='pdf', bbox_inches='tight')
     plt.show()

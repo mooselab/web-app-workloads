@@ -2,9 +2,9 @@ import pandas as pd
 from collections import defaultdict
 
 # Read the CSV files into DataFrames
-file_path_day = '/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_day.csv'
+file_path_day = '/results/clustered_kmeans_day.csv'
 df_daily = pd.read_csv(file_path_day)
-file_path_week = '/Users/roozbeh/Documents/benchmark_code/clustered_results/clustered_kmeans_week.csv'
+file_path_week = '/results/clustered_kmeans_week.csv'
 df_weekly = pd.read_csv(file_path_week)
 
 # Convert 'Date' column to datetime format in both DataFrames

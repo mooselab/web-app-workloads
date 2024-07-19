@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rcParams
 
 # # Load the dataset
-path = '/Users/roozbeh/Documents/Dars/PhD/Papers/my_papers/Papers/paper3_Workload_patterns/'
+path = '/articles/'
 df = pd.read_csv(path + 'workloads_years.csv')
 
 # Extract Paper Year and Dataset Year
