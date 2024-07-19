@@ -1,0 +1,147 @@
+Paper,Dataset,Paper Year,Dataset Year,,Objectives,Paper Year
+Héron: Taming Tail Latencies in Key-Value Stores Under Heterogeneous Workloads,Wikipedia,2018,N/A,,Workload Characterization,2018
+A Long-term Cloud Workload Prediction Framework for Reserved Resource Allocation,Wikipedia,2022,2015,,Workload Prediction,2022
+Workload prediction using ARIMA model and its impact on cloud applications' QoS,Wikipedia,2014,2008,,Workload Prediction,2014
+An adaptive workload prediction strategy for non-Gaussian cloud service using ARMA model with higher order statistics,Wikipedia,2018,2015,,Workload Prediction,2018
+CloudInsight: Utilizing a Council of Experts to Predict Future Cloud Application Workloads,Wikipedia,2018,2008,,Workload Prediction,2018
+CANFIS: A Chaos Adaptive Neural Fuzzy Inference System for Workload Prediction in the Cloud,Wikipedia,2022,2015,,Workload Prediction,2022
+CANFIS: A Chaos Adaptive Neural Fuzzy Inference System for Workload Prediction in the Cloud,Nasa,2022,1995,,Workload Characterization,2009
+Wikipedia workload analysis for decentralized hosting,Wikipedia,2009,2008,,Workload Classification,2009
+"Chameleon: A Hybrid, Proactive Auto-Scaling Mechanism on a Level-Playing Field",Wikipedia,2018,2013,,Auto-scaling,2018
+"Chameleon: A Hybrid, Proactive Auto-Scaling Mechanism on a Level-Playing Field",WorldCup98,2018,1998,,Workload Prediction,2018
+"Chameleon: A Hybrid, Proactive Auto-Scaling Mechanism on a Level-Playing Field",Retailrocket,2018,2015,,Workload Prediction,2018
+Higher Order Statistics Based Method For Workload Prediction In The Cloud Using ARMA Model,Wikipedia,2018,2015,,Auto-scaling,2020
+Online Workload Burst Detection for Efficient Predictive Autoscaling of Applications,Wikipedia,2020,2008,,Workload Prediction,2020
+Online Workload Burst Detection for Efficient Predictive Autoscaling of Applications,WorldCup98,2020,1998,,Workload Prediction,2022
+Online Workload Burst Detection for Efficient Predictive Autoscaling of Applications,Nasa,2020,1995,,Workload Prediction,2020
+Online Workload Burst Detection for Efficient Predictive Autoscaling of Applications,Calgary,2020,1995,,Workload Classification,2013
+Online Workload Burst Detection for Efficient Predictive Autoscaling of Applications,ClarkNet,2020,1995,,Workload Prediction,2013
+CloudBruno: A Low-Overhead Online Workload Prediction Framework for Cloud Computing,Wikipedia,2022,2008,,Benchmarking,2016
+A Self-Optimized Generic Workload Prediction Framework for Cloud Computing,Wikipedia,2020,2008,,Workload Classification,2013
+Self-adaptive workload classification and forecasting for proactive resource provisioning,Wikipedia,2013,2011,,Auto-scaling,2017
+PEAS: A Performance Evaluation Framework for Auto-Scaling Strategies in Cloud Applications,Wikipedia,2016,2013,,Workload Prediction,2022
+Workload Classification for Efficient Auto-Scaling of Cloud Resources,Wikipedia,2013,2008,,Auto-scaling,2020
+Workload Classification for Efficient Auto-Scaling of Cloud Resources,WorldCup98,2013,1998,,Workload Prediction,2020
+A Fuzzy Approach Based on Heterogeneous Metrics for Scaling Out Public Clouds,Wikipedia,2017,2008,,Resource Provisioning,2011
+A Fuzzy Approach Based on Heterogeneous Metrics for Scaling Out Public Clouds,WorldCup98,2017,1998,,Workload Prediction,2016
+A new temporal locality-based workload prediction approach for SaaS services in a cloud environment,Wikipedia,2022,2007,,Workload Prediction,2016
+Burst-Aware Predictive Autoscaling for Containerized Microservices,Wikipedia,2020,2008,,Workload Prediction,2011
+Burst-Aware Predictive Autoscaling for Containerized Microservices,WorldCup98,2020,1998,,Resource Provisioning,2011
+Burst-Aware Predictive Autoscaling for Containerized Microservices,Nasa,2020,1995,,Workload Characterization,2000
+Burst-Aware Predictive Autoscaling for Containerized Microservices,Calgary,2020,1995,,Auto-scaling,2010
+Burst-Aware Predictive Autoscaling for Containerized Microservices,ClarkNet,2020,1995,,Workload Prediction,2010
+Virtual Machine Provisioning Based on Analytical Performance and QoS in Cloud Computing Environments,Wikipedia,2011,2008,,Auto-scaling,2016
+Learning-Based Power Prediction for Data Centre Operations via Deep Neural Networks,WorldCup98,2016,1998,,Workload Prediction,2016
+Learning-Based Power Prediction for Data Centre Operations via Deep Neural Networks,ClarkNet,2016,1995,,Auto-scaling,2022
+A Workload Prediction Approach Using Models Stacking Based on Recurrent Neural Network and Autoencoder,WorldCup98,2016,1998,,Workload Prediction,2022
+A Workload Prediction Approach Using Models Stacking Based on Recurrent Neural Network and Autoencoder,Nasa,2016,1995,,Workload Prediction,2020
+Efficient Autoscaling in the Cloud using Predictive Models for Workload Forecasting,WorldCup98,2011,1998,,Auto-scaling,2020
+A Workload Characterization Study of the 1998 World Cup Web Site,WorldCup98,2000,1998,,Workload Prediction,2020
+PRESS: PRedictive Elastic ReSource Scaling for cloud systems,WorldCup98,2010,1998,,Benchmarking,2009
+PRESS: PRedictive Elastic ReSource Scaling for cloud systems,ClarkNet,2010,1995,,Load Balancing,2000
+Combining time series prediction models using genetic algorithm to autoscaling Web applications hosted in the cloud infrastructure,WorldCup98,2010,1998,,Self-healing,2018
+Combining time series prediction models using genetic algorithm to autoscaling Web applications hosted in the cloud infrastructure,Nasa,2010,1995,,Benchmarking,2018
+Combining time series prediction models using genetic algorithm to autoscaling Web applications hosted in the cloud infrastructure,ClarkNet,2010,1995,,Auto-scaling,2017
+K-AGRUED: A Container Autoscaling Technique for Cloud-based Web Applications in Kubernetes Using Attention-based GRU Encoder-Decoder,WorldCup98,2022,1998,,Self-healing,2016
+K-AGRUED: A Container Autoscaling Technique for Cloud-based Web Applications in Kubernetes Using Attention-based GRU Encoder-Decoder,Nasa,2022,1995,,Caching Optimization,2004
+A hybrid wavelet decomposer and GMDH-ELM ensemble model for Network function virtualization workload forecasting in cloud computing,WorldCup98,2020,1998,,Load Balancing,2003
+Machine learning-based auto-scaling for containerized applications,WorldCup98,2020,1998,,Auto-scaling,2021
+Injecting Realistic Burstiness to a Traditional Client-Server Benchmark,WorldCup98,2009,1998,,Workload Prediction,2021
+Analytic Modeling of Load Balancing Policies for Tasks with Heavy-tailed Distributions,WorldCup98,2000,1998,,Workload Prediction,2020
+Flexible and Efficient Decision-Making for Proactive Latency-Aware Self-Adaptation,WorldCup98,2018,1998,,Resource Provisioning,2021
+Flexible and Efficient Decision-Making for Proactive Latency-Aware Self-Adaptation,ClarkNet,2018,1995,,Load Balancing,2001
+"TeaStore: A Micro-Service Reference Application for Benchmarking, Modeling and Resource Management Research",WorldCup98,2018,1998,,Workload Prediction,2023
+A QoS-Based Reactive Auto Scaler for Cloud Environment,WorldCup98,2017,1998,,Workload Prediction,2021
+Efficient Decision-Making under Uncertainty for Proactive Self-Adaptation,WorldCup98,2016,1998,,Workload Prediction,2020
+Efficient Decision-Making under Uncertainty for Proactive Self-Adaptation,ClarkNet,2016,1995,,Workload Prediction,2018
+X-RAY: A Non-Invasive Exclusive Caching Mechanism for RAIDs,WorldCup98,2004,1998,,Workload Prediction,2021
+X-RAY: A Non-Invasive Exclusive Caching Mechanism for RAIDs,Nasa,2004,1995,,Workload Prediction,2022
+Research on scheduling algorithms in Web cluster servers,WorldCup98,2003,1998,,Workload Prediction,2018
+Research on scheduling algorithms in Web cluster servers,Nasa,2003,1995,,Workload Prediction,2011
+Research on scheduling algorithms in Web cluster servers,Calgary,2003,1995,,Workload Prediction,2016
+Research on scheduling algorithms in Web cluster servers,ClarkNet,2003,1995,,Resource Provisioning,2018
+Deep Learning-Based Autoscaling Using Bidirectional Long Short-Term Memory for Kubernetes,WorldCup98,2021,1998,,Workload Prediction,2018
+Deep Learning-Based Autoscaling Using Bidirectional Long Short-Term Memory for Kubernetes,Nasa,2021,1995,,Workload Characterization,1996
+A Web Application Load Prediction Model Using Recurrent Neural Network in Cloud,WorldCup98,2020,1998,,Benchmarking,2021
+Resource provisioning using workload clustering in cloud computing environment: a hybrid approach,WorldCup98,2021,1998,,Benchmarking,2021
+Resource provisioning using workload clustering in cloud computing environment: a hybrid approach,Nasa,2021,1995,,Workload Prediction,2023
+EquiLoad: a load balancing policy for clustered web servers,WorldCup98,2001,1998,,Auto-scaling,2021
+Optimized Hierarchical Tree Deep Convolutional Neural Network of a Tree-Based Workload Prediction Scheme for Enhancing Power Efficiency in Cloud Computing,Nasa,2023,1995,,Workload Prediction,2021
+Optimized Hierarchical Tree Deep Convolutional Neural Network of a Tree-Based Workload Prediction Scheme for Enhancing Power Efficiency in Cloud Computing,Saskatchewan,2023,1995,,Workload Prediction,2019
+A Quantum Approach Towards the Adaptive Prediction of Cloud Workloads,Nasa,2021,1995,,Workload Prediction,2019
+A Quantum Approach Towards the Adaptive Prediction of Cloud Workloads,Saskatchewan,2021,1995,,Workload Prediction,2020
+BiPhase adaptive learning-based neural network model for cloud datacenter workload forecasting,Nasa,2020,1995,,Workload Prediction,2019
+BiPhase adaptive learning-based neural network model for cloud datacenter workload forecasting,Saskatchewan,2020,1995,,Workload Characterization,2005
+Workload prediction in cloud using artificial neural network and adaptive differential evolution,Nasa,2018,1995,,Workload Prediction,2024
+Workload prediction in cloud using artificial neural network and adaptive differential evolution,Saskatchewan,2018,1995,,Workload Prediction,2023
+Self directed learning based workload forecasting model for cloud resource management,Nasa,2021,1995,,Load Balancing,2021
+Self directed learning based workload forecasting model for cloud resource management,Saskatchewan,2021,1995,,Workload Prediction,2018
+Self directed learning based workload forecasting model for cloud resource management,Calgary,2021,1995,,Auto-scaling,2004
+Auto-adaptive learning-based workload forecasting in dynamic cloud environment,Nasa,2022,1995,,Benchmarking,2003
+Auto-adaptive learning-based workload forecasting in dynamic cloud environment,Saskatchewan,2022,1995,,Workload Characterization,2014
+"Long short term memory recurrent neural network (LSTM-RNN) based workload forecasting model for cloud datacenters,",Nasa,2018,1995,,Workload Characterization,2009
+"Long short term memory recurrent neural network (LSTM-RNN) based workload forecasting model for cloud datacenters,",Saskatchewan,2018,1995,,Resource Provisioning,2019
+"Long short term memory recurrent neural network (LSTM-RNN) based workload forecasting model for cloud datacenters,",Calgary,2018,1995,,Resource Provisioning,2022
+Prediction of Cloud Data Center Networks Loads Using Stochastic and Neural Models,Nasa,2011,1995,,Auto-scaling,2020
+Prediction of Cloud Data Center Networks Loads Using Stochastic and Neural Models,EPA,2011,1995,,Workload Prediction,2020
+Dynamic Resource Scaling in Cloud Using Neural Network and Black hole Algorithm,Nasa,2016,1995,,Auto-scaling,2023
+Dynamic Resource Scaling in Cloud Using Neural Network and Black hole Algorithm,Saskatchewan,2016,1995,,Workload Prediction,2023
+Dynamic Resource Scaling in Cloud Using Neural Network and Black hole Algorithm,Calgary,2016,1995,,Workload Characterization,2006
+FAHP approach for autonomic resource provisioning of multitier applications in cloud computing environments,Nasa,2018,1995,,Workload Characterization,2005
+FAHP approach for autonomic resource provisioning of multitier applications in cloud computing environments,ClarkNet,2018,1995,,Workload Characterization,2008
+Web Server Workload Characterization: The Search for Invariants,Nasa,1996,1995,,Workload Characterization,1995
+Web Server Workload Characterization: The Search for Invariants,Saskatchewan,1996,1995,,Workload Characterization,1997
+Web Server Workload Characterization: The Search for Invariants,Calgary,1996,1995,,Workload Characterization,1999
+Web Server Workload Characterization: The Search for Invariants,ClarkNet,1996,1995,,Caching Optimization,1999
+Performance evaluation of metaheuristics algorithms for workload prediction in cloud environment,Nasa,2021,1995,,,
+Performance evaluation of metaheuristics algorithms for workload prediction in cloud environment,Saskatchewan,2021,1995,,,
+Performance evaluation of metaheuristics algorithms for workload prediction in cloud environment,Calgary,2021,1995,,,
+Performance Assessment of Time Series Forecasting Models for Cloud Datacenter Networks’ Workload Prediction,Nasa,2021,1995,,,
+Performance Assessment of Time Series Forecasting Models for Cloud Datacenter Networks’ Workload Prediction,Saskatchewan,2021,1995,,,
+Performance Assessment of Time Series Forecasting Models for Cloud Datacenter Networks’ Workload Prediction,Calgary,2021,1995,,,
+A cloud computing load prediction hybrid model with adaptive weight strategy,Nasa,2023,1995,,,
+A cloud computing load prediction hybrid model with adaptive weight strategy,Saskatchewan,2023,1995,,,
+RHAS: robust hybrid auto-scaling for web applications in cloud computing,Nasa,2021,1995,,,
+RHAS: robust hybrid auto-scaling for web applications in cloud computing,ClarkNet,2021,1995,,,
+A Preliminary Study of Machine Learning Workload Prediction Techniques for Cloud Applications,Nasa,2019,1995,,,
+Application of an Enhanced Self-adapting Differential Evolution Algorithm to Workload Prediction in Cloud Computing,Nasa,2019,1995,,,
+Application of an Enhanced Self-adapting Differential Evolution Algorithm to Workload Prediction in Cloud Computing,Saskatchewan,2019,1995,,,
+Cloud datacenter workload estimation using error preventive time series forecasting models,Nasa,2020,1995,,,
+Cloud datacenter workload estimation using error preventive time series forecasting models,Saskatchewan,2020,1995,,,
+Cloud datacenter workload estimation using error preventive time series forecasting models,Calgary,2020,1995,,,
+TASM: technocrat ARIMA and SVR model for workload prediction of web applications in cloud,Nasa,2019,1995,,,
+TASM: technocrat ARIMA and SVR model for workload prediction of web applications in cloud,ClarkNet,2019,1995,,,
+Lognormal and Pareto distributions in the Internet,Nasa,2005,1995,,,
+Lognormal and Pareto distributions in the Internet,Saskatchewan,2005,1995,,,
+Lognormal and Pareto distributions in the Internet,Calgary,2005,1995,,,
+Lognormal and Pareto distributions in the Internet,ClarkNet,2005,1995,,,
+Lognormal and Pareto distributions in the Internet,BU,2005,1995,,,
+Workload prediction for enhancing power efficiency of cloud data centers using optimized self-attention-based progressive generative adversarial network,Nasa,2024,1995,,,
+Workload prediction for enhancing power efficiency of cloud data centers using optimized self-attention-based progressive generative adversarial network,Saskatchewan,2024,1995,,,
+COSCO2: AI-augmented evolutionary algorithm based workload prediction framework for sustainable cloud data centers,Nasa,2023,1995,,,
+COSCO2: AI-augmented evolutionary algorithm based workload prediction framework for sustainable cloud data centers,Saskatchewan,2023,1995,,,
+Autonomic task scheduling algorithm for dynamic workloads through a load balancing technique for the cloud-computing environment,Nasa,2021,1995,,,
+Autonomic task scheduling algorithm for dynamic workloads through a load balancing technique for the cloud-computing environment,Calgary,2021,1995,,,
+Toward on-Line Predictive Models for Forecasting Workload in Clouds,ClarkNet,2018,1995,,,
+An Online Control Framework for Designing Self-Optimizing Computing Systems: Application to Power Management,ClarkNet,2004,1995,,,
+Conserving Disk Energy in Network Servers,ClarkNet,2003,1995,,,
+Category-based User Interaction with Online User-Generated Videos: Workload Characterization,YouTube,2014,2008,,,
+"Characteristics of YouTube network traffic at a campus network – Measurements, models, and implications",YouTube,2009,2008,,,
+Efficient resource provisioning for elastic Cloud services based on machine learning techniques,Madrid,2019,2018,,,
+Cushion: A proactive resource provisioning method to mitigate SLO violations for containerized microservices,WorldCup98,2022,1998,,,
+Cushion: A proactive resource provisioning method to mitigate SLO violations for containerized microservices,Wikipedia,2022,N/A,,,
+Cushion: A proactive resource provisioning method to mitigate SLO violations for containerized microservices,Nasa,2022,1995,,,
+Cushion: A proactive resource provisioning method to mitigate SLO violations for containerized microservices,ClarkNet,2022,1995,,,
+Predictive Autoscaling of Microservices Hosted in Fog Microdata Center,Wikipedia,2020,2008,,,
+Predictive Autoscaling of Microservices Hosted in Fog Microdata Center,WorldCup98,2020,1998,,,
+Predictive Autoscaling of Microservices Hosted in Fog Microdata Center,ClarkNet,2020,1995,,,
+Auto-Scaling Containerized Applications in Geo-Distributed Clouds,Wikipedia,2023,2008,,,
+Auto-Scaling Containerized Applications in Geo-Distributed Clouds,Nasa,2023,1995,,,
+Metrics for Mass-Count Disparity,WorldCup98,2006,1998,,,
+Metrics for Mass-Count Disparity,SDSC,2006,1995,,,
+Web workload characterization: Ten years later,Calgary,2005,1995,,,
+Web workload characterization: Ten years later,Saskatchewan,2005,1995,,,
+Watch Global Cache Local: YouTube Network Traces at a Campus Network - Measurements and Implications,YouTube,2008,2008,,,
+Characteristics of WWW Client-based Traces,BU,1995,1995,,,
+Self-Similarity in World Wide Web Traffic: Evidence and Possible Causes,BU,1997,1995,,,
+Changes in Web client access patterns: Characteristics and caching implications,BU,1999,1995,,,
