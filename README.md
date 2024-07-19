@@ -18,25 +18,25 @@ pip install -r requirements.txt
 ## Usage Instructions
 The repository is organized into five main folders:
 
-articles: Information about the studied articles.
-data: Contains 12 raw datasets that were extracted and used in this study:
-Wikipedia
-Worldcup98
-NASA
-Saskatchewan
-Calgary
-EPA
-ClarkNet
-Retailrocket
-Boston
-SDSC
-Youtube
-Madrid
-merged_datasets: The raw datasets after the pre-processing steps and aggregated in two time granularities: daily and weekly.
-Experiments: This folder contains the code for conducting the experiments and analyzing the results. It is further divided into two subfolders:
-clustering: Handles the steps to cluster workloads.
-analysis: Contains code for the analysis of workloads to address our research questions.
-results: This folder houses the clustered results of the workloads, which are instrumental in answering our research questions.
+1. articles: Information about the studied articles.
+2. data: Contains 12 raw datasets that were extracted and used in this study:
+- Wikipedia
+- Worldcup98
+- NASA
+- Saskatchewan
+- Calgary
+- EPA
+- ClarkNet
+- Retailrocket
+- Boston
+- SDSC
+- Youtube
+- Madrid
+3. merged_datasets: The raw datasets after the pre-processing steps and aggregated in two time granularities: daily and weekly.
+4. experiments: This folder contains the code for conducting the experiments and analyzing the results. It is further divided into two subfolders:
+- clustering: Handles the steps to cluster workloads.
+- analysis: Contains code for the analysis of workloads to address our research questions.
+5. results: This folder houses the clustered results of the workloads, which are instrumental in answering our research questions.
 
 ## License
 This project is licensed under the MIT License.
