@@ -1,34 +1,42 @@
-# Characterizing Web Application Workload Patterns
+# Understanding Web Application Workloads and Their Applications: Systematic Literature Review and Characterization
 
 This repository hosts the replication package for the paper "Understanding Web Application Workloads and Their Applications: Systematic Literature Review and Characterization."
 
-## Introduction
+## Abstract
+Web applications, accessible via web browsers over the Internet, facilitate complex functionalities without local software installation. In the context of web applications, a workload refers to the number of user requests sent by users or applications to the underlying system. Existing studies have leveraged web application workloads to achieve various objectives, such as workload prediction and auto-scaling. However, these studies are conducted in an *ad hoc* manner, lacking a systematic understanding of the characteristics of web application workloads. In this study, we first conduct a systematic literature review to identify and analyze existing studies leveraging web application workloads. Our analysis sheds light on their workload utilization, analysis techniques, and high-level objectives. We further systematically analyze the characteristics of the web application workloads identified in the literature review. Our analysis centers on characterizing these workloads at two distinct temporal granularity: daily and weekly. We successfully identify and categorize three daily and three weekly patterns within the workloads. By providing a statistical characterization of these workload patterns, our study highlights the uniqueness of each pattern, paving the way for the development of realistic workload generation and resource provisioning techniques that can benefit a range of applications and research areas.
 
-The repository is organized into three main folders:
-
-1. **Experiments:** This folder encompasses the code for conducting the experiments. It is further divided into three subfolders: `extracting_traces`, `clustering`, and `analysis`. The first subfolder is utilized for extracting workloads (available in the [extracted_traces](./extracted_traces/) folder). The second subfolder handles the clustering of workloads, and the results can be found in the [results](./results/) folder. The third subfolder contains code for the analysis of workloads to address our research questions.
-
-2. **Extracted Traces:** This folder stores the raw data of the 12 workloads studied in our research.
-
-3. **Results:** This folder houses the clustered results of the workloads, which are instrumental in answering our research questions.
-
-## Install
+## Installation
 
 To install and run the scripts, follow these steps:
 
 ```bash
-git clone https://github.com/workloadPatterns/characterizing_workload_patterns
+git clone https://github.com/mooselab/web-app-workloads
+cd web-app-workloads
 pip install -r requirements.txt
 ```
 
-## Experiments
+## Usage Instructions
+The repository is organized into five main folders:
 
-The `experiments` folder contains code for our primary experiments. Specific scripts include:
+articles: Information about the studied articles.
+data: Contains 12 raw datasets that were extracted and used in this study:
+Wikipedia
+Worldcup98
+NASA
+Saskatchewan
+Calgary
+EPA
+ClarkNet
+Retailrocket
+Boston
+SDSC
+Youtube
+Madrid
+merged_datasets: The raw datasets after the pre-processing steps and aggregated in two time granularities: daily and weekly.
+Experiments: This folder contains the code for conducting the experiments and analyzing the results. It is further divided into two subfolders:
+clustering: Handles the steps to cluster workloads.
+analysis: Contains code for the analysis of workloads to address our research questions.
+results: This folder houses the clustered results of the workloads, which are instrumental in answering our research questions.
 
-- `clustering_kmeans_silhouette_day.py`: Performs clustering on trace data at the daily granularity.
-- `clustering_kmeans_silhouette_week.py`: Performs clustering on trace data at the weekly granularity.
-- `clustering_analysis.py`: Conducts analysis on clusters after the clustering process.
-- `correlation_analysis.py`: Carries out correlation analysis between daily and weekly clusters.
-- `creating_plots_clustering.py`: Generates figures used in the first research question.
-- `creating_plots_slr.py`: Generates figures used in the second research question.
-- `extracting_traces` folder: Contains code for extracting the 12 workloads used in our study.
+## License
+This project is licensed under the MIT License.
