@@ -1,4 +1,4 @@
-# Understanding Web Application Workloads and Their Applications: Systematic Literature Review and Characterization
+# Understanding Web Application Workloads and Their Applications
 
 This repository hosts the replication package for the paper "Understanding Web Application Workloads and Their Applications: Systematic Literature Review and Characterization."
 
