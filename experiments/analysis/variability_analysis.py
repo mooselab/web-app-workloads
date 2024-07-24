@@ -2,7 +2,6 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from tslearn.preprocessing import TimeSeriesScalerMeanVariance
 
 # Common parameters and functions
 name_mapping = {
@@ -79,30 +78,25 @@ def variability_analysis(file_path):
     if 'daily' in file_path:
         granularity = 'daily'
         df_columns = 2
-        smoothing_span = 12
     elif 'weekly' in file_path:
         granularity = 'weekly'
         df_columns = 3
-        smoothing_span = 7
 
     df_data = df.iloc[:, df_columns:].values
-    scaler = TimeSeriesScalerMeanVariance()
-    scaled_data_zscore = scaler.fit_transform(df_data)
-    reshaped_data_zscore = np.squeeze(scaled_data_zscore, axis=-1)
-    df_scaled_data_zscore = pd.DataFrame(reshaped_data_zscore)
-    df_ema = df_scaled_data_zscore.ewm(span=smoothing_span, axis=1).mean()
-    df_std = df_ema.std(axis=1).values
-    df['Variability'] = df_std
+    row_std = df_data.std(axis=1)
+    row_mean = df_data.mean(axis=1)
+    cv = row_std / row_mean
+    df['Variability'] = cv
 
     output_file = os.path.join(output_path, f'variance_{granularity}.pdf')
-    plot_boxplot(df, 'Variability', output_file, [0, 0.2, 0.4, 0.6, 0.8, 1], (0, 1))
+    plot_boxplot(df, 'Variability', output_file, [0, 1, 2, 3, 4, 5], (0, 5))
 
 
 merged_dataset_daily = '/merged_datasets/merged_dataset_daily.csv'
 merged_dataset_weekly = '/merged_datasets/merged_dataset_weekly.csv'
 
 # Define the base directory for saving files
-output_path = '/results'
+output_path = '/results/'
 
 variability_analysis(merged_dataset_daily)
 variability_analysis(merged_dataset_weekly)
